@@ -1,6 +1,11 @@
 <html>
 <body>
-<h2>Hello World!</h2>
-<a href="user">Go to User controller</a>
-</body>
+
+<form action="user" method="Post">
+
+User Name: <input name="userName" type="text" /><br><br>
+Password: <input name="userPassword" type="password" /><br><br>
+
+<input type="submit" name="submit"/></body>
+
 </html>
